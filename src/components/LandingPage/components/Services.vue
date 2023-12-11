@@ -140,21 +140,21 @@ const breakpoints = {
 }
 
 .serve2 {
-    background-image: url(Images/services/restaurant.jpg);
+    background-image: url(../../../assets/about.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .serve3 {
-    background-image: url(Images/services/wedding.jpg);
+    background-image: url(../../../assets/about.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .serve4 {
-    background-image: url(Images/services/event.jpg);
+    background-image: url(../../../assets/about.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +162,7 @@ const breakpoints = {
 }
 
 .serve7 {
-    background-image: url(Images/services/gym.jpg);
+    background-image: url(../../../assets/about.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
