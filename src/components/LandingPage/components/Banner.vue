@@ -115,9 +115,9 @@ const hold = () => {
       </div>
       <!-- Slider indicators -->
       <div
-        class="absolute z-30 flex px-3 py-2 space-x-3 -translate-x-1/2 bordernone shadow-md bg-transparent bottom-20 left-1/2">
+        class="absolute z-30 flex px-3 py-2 space-x-3 -translate-x-1/2 bordernone shadow-md  bottom-20 left-1/2">
         <button v-for="(image, index) in images" :key="index" @click="isActive = index" type="button"
-          class="w-3 h-3 rounded-full" :class="isActive === index ? 'bg-green-400' : 'bg-black'"></button>
+          class="w-3 h-3 rounded-full" :class="isActive === index ? 'bg-black' : 'bg-white'"></button>
       </div>
       <!-- Slider controls -->
       <button @click="prev" type="button"
@@ -149,11 +149,11 @@ const hold = () => {
         </span>
 
       </button>
-      <div class="none" style="width: 500px; height:40vh; color:white; position: absolute; top:30% ; right: 0;" >
+      <div class="font" style="width: 500px; height:40vh; color:white; position: absolute; top:30% ; right: 0;" >
                   <h1>TEMPORARY RESIDENT CANADIAN VISA</h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro a optio nihil suscipit esse ad quis provident dolorem mollitia.
                   </p>
-                  <button class="" style="border: 1px solid white; border-radius: 10px; background-color: transparent; height: 50px; width: 150px; color: white;">Learn More </button>
+                  <button class="sty" style="border: 1px solid white; border-radius: 10px; background-color: transparent; height: 50px; width: 150px; color: white;">Learn More </button>
                 </div>
                 <div class=" none" style="width: 80%; border: 1px solid ghostwhite; left:10%; position: absolute; bottom: -20px; margin:auto;color: black; box-shadow: 2px 6px 6px 2px rgb(226, 226, 226);">
                 <div style="display: flex;  background-color: white; justify-content: space-between; font-size: 10px; padding: 10px; gap:.5em;">
@@ -207,7 +207,18 @@ const hold = () => {
 .sec1{
   height: 55vh !important;
 }
-
+.font{
+  font-size: 10px;
+  width: 200px !important;
+}
+.font h1{
+  font-size: 11px;
+}
+.sty{
+  height:18px !important;
+  width: 60px !important;
+  font-size: 8px;
+}
 }
 
 </style>

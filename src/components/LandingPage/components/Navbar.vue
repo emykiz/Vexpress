@@ -232,27 +232,27 @@
 
         <!-- Mobile Menu Start-->
         <div v-show="mobileNav" >
-            <div class="absolute px-5 py-12 block z-30 top-0 left-0 w-full h-full bg-gradient-to-b from-theme-dark-blue via-theme-dark-blue-tp to-theme-dark-blue" style="background-color: white;">
+            <div class="absolute px-5 py-12 block z-30 top-0 left-0 w-full h-full bg-gradient-to-b from-theme-dark-blue via-theme-dark-blue-tp to-theme-dark-blue" style="background-color: white;z-index: 999;">
                 <div class="flex justify-between items-center">
-                    <img src="" alt="Logo">
+                    <img src="../../icons/logo.svg" alt="Logo">
                     <button @click="toggleMobileNav()" type="button" class="focus:outline-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x text-white" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x " viewBox="0 0 16 16" style="color: black;">
                             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                         </svg>
                     </button>
                 </div>
                 <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#features">Features</a>
+                        <a  @click="toggleMobileNav()" href="#features" style="color: black; text-decoration: none; cursor: pointer;">Home</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#faq">FAQ</a>
+                        <a  @click="toggleMobileNav()" href="#faq" style="color: black; text-decoration: none; cursor: pointer;">About</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#subscribe">Subscribe</a>
+                        <a  @click="toggleMobileNav()" href="#subscribe" style="color: black; text-decoration: none; cursor: pointer;">Services</a>
                     </li>
-                    <li class="bg-transparent border-2 rounded px-6 py-2 mt-6 w-full text-center cursor-pointer hover:text-theme-secondary transition duration-200">
-                        <a  @click="toggleMobileNav()" href="#download-section">Download</a>
+                    <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
+                        <a  @click="toggleMobileNav()" href="#download-section" style="color: black; text-decoration: none; cursor: pointer;">Contact Us</a>
                     </li>
                 </ul>
                 <div class="flex justify-center items-end h-52">

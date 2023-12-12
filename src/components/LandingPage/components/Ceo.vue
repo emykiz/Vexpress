@@ -1,6 +1,6 @@
 <template>
      <div class="section" style="display: flex; background-color:white !important; justify-content:space-between;align-items: center; margin-top: 100px; width: 100%;flex-wrap: wrap; margin-bottom: 100px;">
-                <div class="media" style=" background-color: rgb(221, 214, 205); height: 350px !important; width: 500x; padding: 50Px; margin-left: 0px;">
+                <div class="media" style=" background-color: rgb(221, 214, 205); width: 500x; padding: 50Px; margin-left: 0px;">
                     <h3>MEET OUR CEO</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate nostrum modi eveniet sint harum cum assumenda distinctio! Quo voluptatibus, vero delectus provident enim aliquid rerum exercitationem! Quam, deleniti ipsum.
                     </p>
@@ -33,6 +33,7 @@
     }
     .media{
         width:500px;
+      
     } 
 }
 </style>
